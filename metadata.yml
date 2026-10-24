@@ -1,0 +1,20 @@
+Categories:
+  - Clock
+License: MIT
+SourceCode: https://github.com/<USERNAME>/lilClockity
+IssueTracker: https://github.com/<USERNAME>/lilClockity/issues
+Changelog: https://github.com/<USERNAME>/lilClockity/releases
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: 5.2
+CurrentVersionCode: 52
+
+Builds:
+  - versionName: "5.2"
+    versionCode: 52
+    commit: v5.2
+    subdir: app
+    gradle:
+      - "assembleRelease"
+    signkey: "fdroid-release.keystore"
