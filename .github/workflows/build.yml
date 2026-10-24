@@ -5,7 +5,9 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
-
+  workflow_dispatch:
+    # Allows manual triggering from the GitHub UI
+    
 jobs:
   build:
     runs-on: ubuntu-latest
