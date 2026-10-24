@@ -1,6 +1,6 @@
 plugins { id 'com.android.application' }
 android {
-    namespace "com.clockity.lilclockity"
+    namespace "com.example.blacktableclock"
     compileSdk 35
     defaultConfig {
         applicationId "com.clockity.lilclockity"
